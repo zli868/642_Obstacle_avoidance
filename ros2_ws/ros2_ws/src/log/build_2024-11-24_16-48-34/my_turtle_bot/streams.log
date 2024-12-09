@@ -1,0 +1,25 @@
+[1.729s] Invoking command in '/root/ros2_ws/src/my_turtle_bot': PYTHONPATH=/root/ros2_ws/src/install/my_turtle_bot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/my_turtle_bot build --build-base /root/ros2_ws/src/build/my_turtle_bot/build install --prefix /root/ros2_ws/src/install/my_turtle_bot --record /root/ros2_ws/src/build/my_turtle_bot/install.log --single-version-externally-managed
+[2.318s] running egg_info
+[2.319s] writing ../build/my_turtle_bot/my_turtle_bot.egg-info/PKG-INFO
+[2.320s] writing dependency_links to ../build/my_turtle_bot/my_turtle_bot.egg-info/dependency_links.txt
+[2.321s] writing entry points to ../build/my_turtle_bot/my_turtle_bot.egg-info/entry_points.txt
+[2.321s] writing requirements to ../build/my_turtle_bot/my_turtle_bot.egg-info/requires.txt
+[2.321s] writing top-level names to ../build/my_turtle_bot/my_turtle_bot.egg-info/top_level.txt
+[2.448s] reading manifest file '../build/my_turtle_bot/my_turtle_bot.egg-info/SOURCES.txt'
+[2.452s] writing manifest file '../build/my_turtle_bot/my_turtle_bot.egg-info/SOURCES.txt'
+[2.452s] running build
+[2.453s] running build_py
+[2.453s] copying my_turtle_bot/avoidance.py -> /root/ros2_ws/src/build/my_turtle_bot/build/lib/my_turtle_bot
+[2.453s] running install
+[2.455s] running install_lib
+[2.457s] copying /root/ros2_ws/src/build/my_turtle_bot/build/lib/my_turtle_bot/avoidance.py -> /root/ros2_ws/src/install/my_turtle_bot/lib/python3.8/site-packages/my_turtle_bot
+[2.458s] byte-compiling /root/ros2_ws/src/install/my_turtle_bot/lib/python3.8/site-packages/my_turtle_bot/avoidance.py to avoidance.cpython-38.pyc
+[2.467s] running install_data
+[2.469s] running install_egg_info
+[2.472s] removing '/root/ros2_ws/src/install/my_turtle_bot/lib/python3.8/site-packages/my_turtle_bot-0.0.0-py3.8.egg-info' (and everything under it)
+[2.473s] Copying ../build/my_turtle_bot/my_turtle_bot.egg-info to /root/ros2_ws/src/install/my_turtle_bot/lib/python3.8/site-packages/my_turtle_bot-0.0.0-py3.8.egg-info
+[2.475s] running install_scripts
+[2.525s] Installing avoidance script to /root/ros2_ws/src/install/my_turtle_bot/lib/my_turtle_bot
+[2.525s] Installing obstacle_avoidance script to /root/ros2_ws/src/install/my_turtle_bot/lib/my_turtle_bot
+[2.526s] writing list of installed files to '/root/ros2_ws/src/build/my_turtle_bot/install.log'
+[2.563s] Invoked command in '/root/ros2_ws/src/my_turtle_bot' returned '0': PYTHONPATH=/root/ros2_ws/src/install/my_turtle_bot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/my_turtle_bot build --build-base /root/ros2_ws/src/build/my_turtle_bot/build install --prefix /root/ros2_ws/src/install/my_turtle_bot --record /root/ros2_ws/src/build/my_turtle_bot/install.log --single-version-externally-managed

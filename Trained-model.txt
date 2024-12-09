@@ -1,0 +1,21 @@
+As for our project, we used ES algorithm to tackle with obstacle avoidance task. There is no trained model.
+But we can consider the result of best motor speed pair to choose as trained/model. They are as follow:
+
+at start
+Generation 1:
+Maximum Score: 483
+Best Individual Motor Speeds:
+Fast Turn Speed: 0.72 rad/s
+Left Turn Speed: 0.23 rad/s
+Right Turn Speed: -0.52 rad/s
+-----------------------------
+Generation 10:
+Maximum Score: 574
+Best Individual Motor Speeds:
+Fast Turn Speed: 1.01 rad/s
+Left Turn Speed: 0.51 rad/s
+Right Turn Speed: -0.58 rad/s
+Score history for all generations are [483, 474, 542, 528, 562, 565, 528, 554, 583, 574]
+
+
+The result can also be easily find at the presentation demo video and report.

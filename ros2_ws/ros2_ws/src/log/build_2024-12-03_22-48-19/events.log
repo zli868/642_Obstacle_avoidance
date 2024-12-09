@@ -1,0 +1,59 @@
+[0.000000] (-) TimerEvent: {}
+[0.004246] (my_turtle_bot) JobQueued: {'identifier': 'my_turtle_bot', 'dependencies': OrderedDict()}
+[0.004377] (my_turtle_bot) JobStarted: {'identifier': 'my_turtle_bot'}
+[0.099539] (-) TimerEvent: {}
+[0.200395] (-) TimerEvent: {}
+[0.300865] (-) TimerEvent: {}
+[0.401273] (-) TimerEvent: {}
+[0.501771] (-) TimerEvent: {}
+[0.602224] (-) TimerEvent: {}
+[0.702678] (-) TimerEvent: {}
+[0.807218] (-) TimerEvent: {}
+[0.908261] (-) TimerEvent: {}
+[1.009057] (-) TimerEvent: {}
+[1.109621] (-) TimerEvent: {}
+[1.210117] (-) TimerEvent: {}
+[1.310603] (-) TimerEvent: {}
+[1.411015] (-) TimerEvent: {}
+[1.511442] (-) TimerEvent: {}
+[1.611985] (-) TimerEvent: {}
+[1.712487] (-) TimerEvent: {}
+[1.812948] (-) TimerEvent: {}
+[1.913378] (-) TimerEvent: {}
+[2.008553] (my_turtle_bot) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/my_turtle_bot', 'build', '--build-base', '/root/ros2_ws/src/build/my_turtle_bot/build', 'install', '--prefix', '/root/ros2_ws/src/install/my_turtle_bot', '--record', '/root/ros2_ws/src/build/my_turtle_bot/install.log', '--single-version-externally-managed'], 'cwd': '/root/ros2_ws/src/my_turtle_bot', 'env': {'HOSTNAME': '5ed7bc845b4e', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/root/turtlebot3_ws/install/turtlebot3_msgs/lib:/root/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/root/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/root', 'OLDPWD': '/root/ros2_ws/src', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/root/ros2_ws/src/install:/root/turtlebot3_ws/install:/root/ROS2-Path-Planning-and-Maze-Solving/path_planning_ws/install', 'ROS_DISTRO': 'foxy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'graphics', 'TERM': 'xterm', 'LIBGL_ALWAYS_INDIRECT': '0', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': 'host.docker.internal:0.0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/root/ros2_ws/src/install/my_turtle_bot:/root/turtlebot3_ws/install/turtlebot3:/root/turtlebot3_ws/install/turtlebot3_teleop:/root/turtlebot3_ws/install/turtlebot3_simulations:/root/turtlebot3_ws/install/turtlebot3_bringup:/root/turtlebot3_ws/install/turtlebot3_node:/root/turtlebot3_ws/install/turtlebot3_navigation2:/root/turtlebot3_ws/install/turtlebot3_fake_node:/root/turtlebot3_ws/install/turtlebot3_example:/root/turtlebot3_ws/install/turtlebot3_msgs:/root/turtlebot3_ws/install/turtlebot3_gazebo:/root/turtlebot3_ws/install/turtlebot3_description:/root/turtlebot3_ws/install/turtlebot3_cartographer:/root/turtlebot3_ws/install/dynamixel_sdk_examples:/root/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/root/turtlebot3_ws/install/dynamixel_sdk:/root/ROS2-Path-Planning-and-Maze-Solving/path_planning_ws/install/maze_bot:/opt/ros/foxy', 'PWD': '/root/ros2_ws/src/build/my_turtle_bot', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/root/ros2_ws/src/install/my_turtle_bot/lib/python3.8/site-packages:/root/ros2_ws/src/install/my_turtle_bot/lib/python3.8/site-packages:/root/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/root/turtlebot3_ws/install/turtlebot3_example/lib/python3.8/site-packages:/root/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/root/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/root/ROS2-Path-Planning-and-Maze-Solving/path_planning_ws/install/maze_bot/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/root/turtlebot3_ws/install/turtlebot3:/root/turtlebot3_ws/install/turtlebot3_simulations:/root/turtlebot3_ws/install/turtlebot3_bringup:/root/turtlebot3_ws/install/turtlebot3_node:/root/turtlebot3_ws/install/turtlebot3_navigation2:/root/turtlebot3_ws/install/turtlebot3_fake_node:/root/turtlebot3_ws/install/turtlebot3_msgs:/root/turtlebot3_ws/install/turtlebot3_gazebo:/root/turtlebot3_ws/install/turtlebot3_description:/root/turtlebot3_ws/install/turtlebot3_cartographer:/root/turtlebot3_ws/install/dynamixel_sdk_examples:/root/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/root/turtlebot3_ws/install/dynamixel_sdk'}, 'shell': False}
+[2.019435] (-) TimerEvent: {}
+[2.121188] (-) TimerEvent: {}
+[2.221661] (-) TimerEvent: {}
+[2.322140] (-) TimerEvent: {}
+[2.423298] (-) TimerEvent: {}
+[2.523777] (-) TimerEvent: {}
+[2.624220] (-) TimerEvent: {}
+[2.640660] (my_turtle_bot) StdoutLine: {'line': b'running egg_info\n'}
+[2.642397] (my_turtle_bot) StdoutLine: {'line': b'writing ../build/my_turtle_bot/my_turtle_bot.egg-info/PKG-INFO\n'}
+[2.642838] (my_turtle_bot) StdoutLine: {'line': b'writing dependency_links to ../build/my_turtle_bot/my_turtle_bot.egg-info/dependency_links.txt\n'}
+[2.643367] (my_turtle_bot) StdoutLine: {'line': b'writing entry points to ../build/my_turtle_bot/my_turtle_bot.egg-info/entry_points.txt\n'}
+[2.644107] (my_turtle_bot) StdoutLine: {'line': b'writing requirements to ../build/my_turtle_bot/my_turtle_bot.egg-info/requires.txt\n'}
+[2.645244] (my_turtle_bot) StdoutLine: {'line': b'writing top-level names to ../build/my_turtle_bot/my_turtle_bot.egg-info/top_level.txt\n'}
+[2.724365] (-) TimerEvent: {}
+[2.764551] (my_turtle_bot) StdoutLine: {'line': b"reading manifest file '../build/my_turtle_bot/my_turtle_bot.egg-info/SOURCES.txt'\n"}
+[2.767488] (my_turtle_bot) StdoutLine: {'line': b"writing manifest file '../build/my_turtle_bot/my_turtle_bot.egg-info/SOURCES.txt'\n"}
+[2.768229] (my_turtle_bot) StdoutLine: {'line': b'running build\n'}
+[2.768745] (my_turtle_bot) StdoutLine: {'line': b'running build_py\n'}
+[2.769052] (my_turtle_bot) StdoutLine: {'line': b'copying my_turtle_bot/avoidance.py -> /root/ros2_ws/src/build/my_turtle_bot/build/lib/my_turtle_bot\n'}
+[2.769642] (my_turtle_bot) StdoutLine: {'line': b'running install\n'}
+[2.771101] (my_turtle_bot) StdoutLine: {'line': b'running install_lib\n'}
+[2.775267] (my_turtle_bot) StdoutLine: {'line': b'copying /root/ros2_ws/src/build/my_turtle_bot/build/lib/my_turtle_bot/avoidance.py -> /root/ros2_ws/src/install/my_turtle_bot/lib/python3.8/site-packages/my_turtle_bot\n'}
+[2.776291] (my_turtle_bot) StdoutLine: {'line': b'byte-compiling /root/ros2_ws/src/install/my_turtle_bot/lib/python3.8/site-packages/my_turtle_bot/avoidance.py to avoidance.cpython-38.pyc\n'}
+[2.782365] (my_turtle_bot) StdoutLine: {'line': b'running install_data\n'}
+[2.783834] (my_turtle_bot) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.787522] (my_turtle_bot) StdoutLine: {'line': b"removing '/root/ros2_ws/src/install/my_turtle_bot/lib/python3.8/site-packages/my_turtle_bot-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[2.788447] (my_turtle_bot) StdoutLine: {'line': b'Copying ../build/my_turtle_bot/my_turtle_bot.egg-info to /root/ros2_ws/src/install/my_turtle_bot/lib/python3.8/site-packages/my_turtle_bot-0.0.0-py3.8.egg-info\n'}
+[2.791154] (my_turtle_bot) StdoutLine: {'line': b'running install_scripts\n'}
+[2.824467] (-) TimerEvent: {}
+[2.836707] (my_turtle_bot) StdoutLine: {'line': b'Installing avoidance script to /root/ros2_ws/src/install/my_turtle_bot/lib/my_turtle_bot\n'}
+[2.837575] (my_turtle_bot) StdoutLine: {'line': b'Installing my_avoidance script to /root/ros2_ws/src/install/my_turtle_bot/lib/my_turtle_bot\n'}
+[2.838243] (my_turtle_bot) StdoutLine: {'line': b"writing list of installed files to '/root/ros2_ws/src/build/my_turtle_bot/install.log'\n"}
+[2.888319] (my_turtle_bot) CommandEnded: {'returncode': 0}
+[2.925847] (-) TimerEvent: {}
+[2.940323] (my_turtle_bot) JobEnded: {'identifier': 'my_turtle_bot', 'rc': 0}
+[2.942348] (-) EventReactorShutdown: {}

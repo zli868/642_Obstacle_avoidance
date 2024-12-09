@@ -1,0 +1,40 @@
+[0.798s] Invoking command in '/root/ros2_ws/src/my_turtle_bot': PYTHONPATH=/root/ros2_ws/src/install/my_turtle_bot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/my_turtle_bot build --build-base /root/ros2_ws/src/build/my_turtle_bot/build install --prefix /root/ros2_ws/src/install/my_turtle_bot --record /root/ros2_ws/src/build/my_turtle_bot/install.log --single-version-externally-managed
+[1.053s] running egg_info
+[1.054s] creating ../build/my_turtle_bot/my_turtle_bot.egg-info
+[1.054s] writing ../build/my_turtle_bot/my_turtle_bot.egg-info/PKG-INFO
+[1.055s] writing dependency_links to ../build/my_turtle_bot/my_turtle_bot.egg-info/dependency_links.txt
+[1.055s] writing entry points to ../build/my_turtle_bot/my_turtle_bot.egg-info/entry_points.txt
+[1.055s] writing requirements to ../build/my_turtle_bot/my_turtle_bot.egg-info/requires.txt
+[1.055s] writing top-level names to ../build/my_turtle_bot/my_turtle_bot.egg-info/top_level.txt
+[1.056s] writing manifest file '../build/my_turtle_bot/my_turtle_bot.egg-info/SOURCES.txt'
+[1.103s] reading manifest file '../build/my_turtle_bot/my_turtle_bot.egg-info/SOURCES.txt'
+[1.104s] writing manifest file '../build/my_turtle_bot/my_turtle_bot.egg-info/SOURCES.txt'
+[1.104s] running build
+[1.105s] running build_py
+[1.105s] creating /root/ros2_ws/src/build/my_turtle_bot/build
+[1.105s] creating /root/ros2_ws/src/build/my_turtle_bot/build/lib
+[1.114s] creating /root/ros2_ws/src/build/my_turtle_bot/build/lib/my_turtle_bot
+[1.114s] copying my_turtle_bot/__init__.py -> /root/ros2_ws/src/build/my_turtle_bot/build/lib/my_turtle_bot
+[1.115s] copying my_turtle_bot/avoidance.py -> /root/ros2_ws/src/build/my_turtle_bot/build/lib/my_turtle_bot
+[1.115s] copying my_turtle_bot/obstacle_avoidance.py -> /root/ros2_ws/src/build/my_turtle_bot/build/lib/my_turtle_bot
+[1.115s] running install
+[1.116s] running install_lib
+[1.117s] creating /root/ros2_ws/src/install/my_turtle_bot/lib/python3.8/site-packages/my_turtle_bot
+[1.118s] copying /root/ros2_ws/src/build/my_turtle_bot/build/lib/my_turtle_bot/__init__.py -> /root/ros2_ws/src/install/my_turtle_bot/lib/python3.8/site-packages/my_turtle_bot
+[1.118s] copying /root/ros2_ws/src/build/my_turtle_bot/build/lib/my_turtle_bot/avoidance.py -> /root/ros2_ws/src/install/my_turtle_bot/lib/python3.8/site-packages/my_turtle_bot
+[1.118s] copying /root/ros2_ws/src/build/my_turtle_bot/build/lib/my_turtle_bot/obstacle_avoidance.py -> /root/ros2_ws/src/install/my_turtle_bot/lib/python3.8/site-packages/my_turtle_bot
+[1.119s] byte-compiling /root/ros2_ws/src/install/my_turtle_bot/lib/python3.8/site-packages/my_turtle_bot/__init__.py to __init__.cpython-38.pyc
+[1.120s] byte-compiling /root/ros2_ws/src/install/my_turtle_bot/lib/python3.8/site-packages/my_turtle_bot/avoidance.py to avoidance.cpython-38.pyc
+[1.122s] byte-compiling /root/ros2_ws/src/install/my_turtle_bot/lib/python3.8/site-packages/my_turtle_bot/obstacle_avoidance.py to obstacle_avoidance.cpython-38.pyc
+[1.122s] running install_data
+[1.123s] creating /root/ros2_ws/src/install/my_turtle_bot/share/ament_index
+[1.123s] creating /root/ros2_ws/src/install/my_turtle_bot/share/ament_index/resource_index
+[1.124s] creating /root/ros2_ws/src/install/my_turtle_bot/share/ament_index/resource_index/packages
+[1.125s] copying resource/my_turtle_bot -> /root/ros2_ws/src/install/my_turtle_bot/share/ament_index/resource_index/packages
+[1.125s] copying package.xml -> /root/ros2_ws/src/install/my_turtle_bot/share/my_turtle_bot
+[1.125s] running install_egg_info
+[1.126s] Copying ../build/my_turtle_bot/my_turtle_bot.egg-info to /root/ros2_ws/src/install/my_turtle_bot/lib/python3.8/site-packages/my_turtle_bot-0.0.0-py3.8.egg-info
+[1.128s] running install_scripts
+[1.148s] Installing avoidance script to /root/ros2_ws/src/install/my_turtle_bot/lib/my_turtle_bot
+[1.149s] writing list of installed files to '/root/ros2_ws/src/build/my_turtle_bot/install.log'
+[1.175s] Invoked command in '/root/ros2_ws/src/my_turtle_bot' returned '0': PYTHONPATH=/root/ros2_ws/src/install/my_turtle_bot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/my_turtle_bot build --build-base /root/ros2_ws/src/build/my_turtle_bot/build install --prefix /root/ros2_ws/src/install/my_turtle_bot --record /root/ros2_ws/src/build/my_turtle_bot/install.log --single-version-externally-managed

@@ -1,0 +1,4 @@
+[console_scripts]
+avoidance = my_turtle_bot.avoidance:main
+my_avoidance = my_turtle_bot.my_avoidance:main
+
